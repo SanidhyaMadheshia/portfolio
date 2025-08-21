@@ -1,0 +1,46 @@
+{
+    "about" : [ "███████╗ █████╗ ███╗   ██╗██╗██████╗ ██╗  ██╗██╗   ██╗ █████╗ ",
+                "██╔════╝██╔══██╗████╗  ██║██║██╔══██╗██║  ██║╚██╗ ██╔╝██╔══██╗",
+                "███████╗███████║██╔██╗ ██║██║██║  ██║███████║ ╚████╔╝ ███████║",
+                "╚════██║██╔══██║██║╚██╗██║██║██║  ██║██╔══██║  ╚██╔╝  ██╔══██║",
+                "███████║██║  ██║██║ ╚████║██║██████╔╝██║  ██║   ██║   ██║  ██║",
+                "╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝",
+                "                                                              ",
+                "███╗   ███╗ █████╗ ██████╗ ███████╗███████╗██╗  ██╗██╗ █████╗ " ,
+                "████╗ ████║██╔══██╗██╔══██╗██╔════╝██╔════╝██║  ██║██║██╔══██╗",
+                "██╔████╔██║███████║██║  ██║█████╗  ███████╗███████║██║███████║",
+                "██║╚██╔╝██║██╔══██║██║  ██║██╔══╝  ╚════██║██╔══██║██║██╔══██║",
+                "██║ ╚═╝ ██║██║  ██║██████╔╝███████╗███████║██║  ██║██║██║  ██║",
+                "╚═╝     ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝"
+            ],
+    "aboutme" : [
+        "----------------------------------------",
+        "Name:        Sanidhya Madheshia",
+        "Role:        Web Developer & Designer",
+        "Focus:       Web3 | Blockchain | Rust | C++",
+        "Education:   B.Tech CSE @ IIIT Kota",
+        "Projects:    IntelliHire, Prediction Markets, FinTrack",
+        "Skills:      React, Next.js, Node.js, Rust, C++, Solidity",
+        "Interests:   Open Source | AI Agents | System Design",
+        "----------------------------------------",
+        "Type 'help' to see more commands."
+    ],
+    "help" : [
+        "Available Commands:",
+        "1. about - Learn about me",
+        "2. projects - View my projects",
+        "3. skills - See my skills",
+        "4. contact - Get my contact info",
+        "5. clear - Clear the terminal",
+        "6. help - Show this help message",
+        "7. resume - Download my resume",
+        "8. social - View my social media links"
+    ],
+    "socials" : [
+        "----------------------------------------",
+        "Github       <a href=\"https://github.com/SanidhyaMadheshia\" class=\"links\">Go to my Github </a>",
+        "X            <a href=\"https://x.com/sanidhya_eth\" class=\"links\">Go and grab me on X </a>",
+        "linkedIn     <a href=\"https://x.com/sanidhya_eth\" class=\"links\">Go and grab me on linkedIn </a>",
+        "----------------------------------------"
+    ]
+}

@@ -1,0 +1,48 @@
+
+
+/*  */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #282A36;
+  font-family: 'MyCustomFont';
+
+}
+
+#prompt {
+  color: #BD93F9;
+}
+#input-command {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+
+p {
+  color: #F8F8F2;
+  font-size: 16px;
+  line-height: 1.5;
+   margin-bottom: -5px;
+}
+ 
+/* baad ke lie :  profile photo or interactions  */
+.parent {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; */
+  background: #282A36;
+  min-height: 100vh;
+}
+/* 
+.terminal { grid-area: 1 / 2 / 2 / 3; }
+.profile { grid-area: 1 / 1 / 2 / 2; } */
+
+
+.links {
+  color: #BD93F9;
+}
