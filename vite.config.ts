@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/', // 👈 IMPORTANT: replace with your repo name
+  base: '/portfolio/', // 👈 IMPORTANT: replace with your repo name
 })
