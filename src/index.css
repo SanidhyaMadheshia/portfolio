@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'MyCustomFont';
-  src: url('JetBrainsMono-ExtraLight.ttf') format('opentype');
+  src: url('/fonts/JetBrainsMono-ExtraLight.ttf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
