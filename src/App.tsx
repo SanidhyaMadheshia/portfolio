@@ -27,10 +27,10 @@ export function displayText(item: string, idx: number) {
   }, 40 * idx);
 }
 function App() {
-  const [value, setValue] = useState<string>("")
+  // const [value, setValue] = useState<string>("")
   const inputRef = useRef<HTMLInputElement>(null);
   const [history, setHistory] = useState<History[]>([]);
-  const [lines, setLines] = useState<string[]>([]);
+  const [, setLines] = useState<string[]>([]);
   const bottomRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     initEventListners();

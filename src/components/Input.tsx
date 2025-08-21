@@ -15,8 +15,8 @@ export const UserInput= ({
   bottomRef: React.RefObject<HTMLDivElement  | null>;
 }) => {
     const [value, setValue] = useState<string>("");
-    const [isTyping, setIsTyping] = useState(false);
-    const [showCursor, setShowCursor] = useState(true);
+    // const [isTyping, setIsTyping] = useState(false);
+    const [, setShowCursor] = useState(true);
     function executeCommand(command : string) {
       console.log("Executing command:", command);
       setValue("");
