@@ -10,7 +10,7 @@ function HistoryCommands({ history }: { history: History[] }) {
     const codeblock = history[lastIndex];
     const itemResponse = getResponse(codeblock.command);
 
-    console.log("Item Response: ", itemResponse);
+    // console.log("Item Response: ", itemResponse);
 
     const container = document.getElementById(`response-${lastIndex}`);
     if (container) container.innerHTML = ""; 

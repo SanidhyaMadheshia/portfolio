@@ -34,7 +34,7 @@
         "5. clear - Clear the terminal",
         "6. help - Show this help message",
         "7. resume - Download my resume",
-        "8. social - View my social media links"
+        "8. socials - View my social media links"
     ],
     "socials" : [
         "----------------------------------------",
@@ -42,5 +42,8 @@
         "X            <a href=\"https://x.com/sanidhya_eth\" class=\"links\">Go and grab me on X </a>",
         "linkedIn     <a href=\"https://x.com/sanidhya_eth\" class=\"links\">Go and grab me on linkedIn </a>",
         "----------------------------------------"
+    ],
+    "projects" : [
+
     ]
 }

@@ -17,14 +17,17 @@ const banner = () : string[]=> {
             }
         }
         let lineToPush = `<pre>${bannerString}</pre>`
-        console.log("Line to push: ", lineToPush);
+        // console.log("Line to push: ", lineToPush);
         banner.push(lineToPush);
     });
          banner.push('<br>')
         banner.push('Bonjour! Welcome to My Portfolio!')
-        banner.push("Type <span class='command'>'help'</span> for a list of all available commands.")
+        banner.push("Type <span class='command'>'help'</span> for a list of all available commands.");
+        banner.push("You can use Tab , Up and Down as you do in your terminal")
+        banner.push("commands u can test : about , help ,socials , clear ")
+
         banner.push('<br>');
     return banner;
 }
 export const BANNER = banner();
-console.log("Banner: ", BANNER);
+// console.log("Banner: ", BANNER);

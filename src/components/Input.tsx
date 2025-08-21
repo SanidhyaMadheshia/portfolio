@@ -14,8 +14,11 @@ export const UserInput= ({
                   )=> void;
   bottomRef: React.RefObject<HTMLDivElement  | null>;
 }) => {
+    
+
     const [value, setValue] = useState<string>("");
     // const [isTyping, setIsTyping] = useState(false);
+    const [count , setCount ]= useState(0);
     const [, setShowCursor] = useState(true);
     function executeCommand(command : string) {
       console.log("Executing command:", command);
@@ -35,6 +38,8 @@ export const UserInput= ({
       return () => clearInterval(interval);
     }, []);
     function  handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
+      // console.log(e.key);
+
         if(e.key === "Enter") {
           if(value=== "clear") {
             setHistory([]);
@@ -48,6 +53,8 @@ export const UserInput= ({
             id: history.length + 1,
             command: value,
           } ]);
+          setCount(history.length + 1);
+
           setTimeout(() => {
             bottomRef.current?.scrollIntoView({
                 behavior: "smooth",
@@ -55,14 +62,41 @@ export const UserInput= ({
               });
           }, 0);
         }   
-        switch (e.key) {
+        switch (e.key) { 
           case "Enter": 
             executeCommand(value);
+            setCount(history.length);
+
             setValue("");
             break;
           case "Tab" : 
             e.preventDefault(); 
             completionHandler(value);
+            break;
+          case "ArrowUp":
+            e.preventDefault();
+            if (count > 0) {
+              const temp = count - 1;
+              setCount(temp);
+              setValue(history[temp].command);
+            }
+            break;
+
+          case "ArrowDown":
+            e.preventDefault();
+            if (count < history.length) {
+              const temp = count + 1;
+              setCount(temp);
+              if (temp === history.length){
+                setValue(""); 
+              }else{
+                setValue(history[temp].command);
+              }
+            }
+            break;
+
+
+
         }
     }
         return (
